@@ -1,0 +1,37 @@
+/*
+ * Notely Light Theme
+ *
+ * Warm neutral palette with blue accent.
+ * Provisional — pending Graphical design reference approval.
+ *
+ * Load after style.css to explicitly select the light theme.
+ * These values match the defaults in style.css.
+ */
+
+.root {
+    -notely-bg-primary: #FFFFFF;
+    -notely-bg-secondary: #F7F7F5;
+    -notely-bg-tertiary: #F0F0EE;
+    -notely-bg-editor: #FFFFFF;
+
+    -notely-text-primary: #1A1A1A;
+    -notely-text-secondary: #6B6B6B;
+    -notely-text-tertiary: #9B9B9B;
+
+    -notely-accent: #2563EB;
+    -notely-accent-hover: #1D4ED8;
+    -notely-accent-subtle: #EFF6FF;
+
+    -notely-border: #E5E5E3;
+    -notely-border-light: #F0F0EE;
+
+    -notely-danger: #DC2626;
+    -notely-danger-hover: #B91C1C;
+    -notely-success: #16A34A;
+    -notely-pin: #F59E0B;
+
+    -notely-tag-bg: #F3F3F1;
+    -notely-tag-text: #4A4A4A;
+
+    -fx-background-color: -notely-bg-primary;
+}

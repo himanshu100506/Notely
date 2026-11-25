@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+
+<!--
+    Main application layout.
+    A BorderPane gives us five regions (top, left, center, right, bottom)
+    which map naturally to a sidebar + toolbar + content area.
+    For now only the center region is populated with a welcome message.
+-->
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.notely.controller.MainController"
+            prefWidth="1000" prefHeight="650"
+            styleClass="root-pane">
+
+    <center>
+        <VBox alignment="CENTER" spacing="16">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            <Label fx:id="welcomeLabel"
+                   text="Loading..."
+                   styleClass="welcome-label"/>
+        </VBox>
+    </center>
+
+</BorderPane>

@@ -1,0 +1,10 @@
+# ============================================================
+# Notely — Database Configuration (EXAMPLE)
+# ============================================================
+# Copy this file to db.properties and fill in your credentials.
+# NEVER commit db.properties — it contains secrets.
+# ============================================================
+
+db.url=jdbc:mysql://localhost:3306/notely?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.username=root
+db.password=your_password_here

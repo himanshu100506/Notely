@@ -1,0 +1,11 @@
+# ============================================================
+# Notely — TEST Database Configuration (EXAMPLE)
+# ============================================================
+# Copy this file to db.properties and fill in your credentials.
+# NEVER commit db.properties — it contains secrets.
+# This MUST point to notely_test — NEVER the production database.
+# ============================================================
+
+db.url=jdbc:mysql://localhost:3306/notely_test?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.username=root
+db.password=your_password_here

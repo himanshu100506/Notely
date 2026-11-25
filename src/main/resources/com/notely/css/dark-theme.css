@@ -1,0 +1,37 @@
+/*
+ * Notely Dark Theme
+ *
+ * Dark neutral palette with brighter blue accent.
+ * Provisional — pending Graphical design reference approval.
+ *
+ * Load after style.css to switch to the dark theme.
+ * Overrides the default light-theme token values defined in style.css.
+ */
+
+.root {
+    -notely-bg-primary: #1A1A1A;
+    -notely-bg-secondary: #222222;
+    -notely-bg-tertiary: #2A2A2A;
+    -notely-bg-editor: #1E1E1E;
+
+    -notely-text-primary: #ECECEC;
+    -notely-text-secondary: #999999;
+    -notely-text-tertiary: #666666;
+
+    -notely-accent: #4B8BFF;
+    -notely-accent-hover: #6BA1FF;
+    -notely-accent-subtle: #1E3A5F;
+
+    -notely-border: #333333;
+    -notely-border-light: #2A2A2A;
+
+    -notely-danger: #EF4444;
+    -notely-danger-hover: #F87171;
+    -notely-success: #22C55E;
+    -notely-pin: #FBBF24;
+
+    -notely-tag-bg: #2D2D2D;
+    -notely-tag-text: #BBBBBB;
+
+    -fx-background-color: -notely-bg-primary;
+}
